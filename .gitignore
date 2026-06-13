@@ -1,0 +1,11 @@
+.next
+node_modules
+out
+dist
+.env*
+*.log
+.DS_Store
+*.tsbuildinfo
+fromgem.html
+index.html
+readStructure.csv
