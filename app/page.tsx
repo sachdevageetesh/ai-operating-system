@@ -192,12 +192,12 @@ export default function Home() {
               <span className="h-2 w-2 rounded-full bg-[#fbbc04]" />
               <span className="h-2 w-2 rounded-full bg-[#34a853]" />
             </span>
-            <div className="ml-auto rounded-xl border border-[#d2e3fc] bg-[#e8f0fe] px-3 py-2 text-right">
-              <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#1a73e8]">
-                Prepared for Rajesh Chandran @ PwC
+            <div className="w-full rounded-xl border border-[#b7dfc4] bg-[#e6f4ea] px-3 py-2 text-left sm:ml-auto sm:w-auto sm:text-right">
+              <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#188038]">
+                Prepared for Rajesh Chandran @ <span className="normal-case">PwC</span>
               </p>
-              <p className="mt-0.5 text-[10px] font-medium text-[#174ea6]">
-                Next.js · Claude Code · Vercel
+              <p className="mt-0.5 text-[10px] font-medium text-[#0d652d]">
+                Next.js · Claude Code · GitHub · Vercel
               </p>
             </div>
           </div>
@@ -346,7 +346,21 @@ export default function Home() {
                     {row.mode}
                   </td>
                   <td className="px-4 py-4 align-top text-[#5f6368]">{row.goal}</td>
-                  <td className="px-4 py-4 align-top text-[#5f6368]">{row.tools}</td>
+                  <td className="px-4 py-4 align-top">
+                    <div className="flex flex-wrap gap-1.5">
+                      {row.tools.split(",").map((tool) => {
+                        const label = tool.trim();
+                        return (
+                          <span
+                            key={label}
+                            className="inline-flex rounded-md bg-[#f1f3f4] px-2 py-0.5 text-[12px] font-medium text-[#202124] ring-1 ring-[#dadce0]"
+                          >
+                            {label}
+                          </span>
+                        );
+                      })}
+                    </div>
+                  </td>
                   <td className="px-4 py-4 align-top text-[#5f6368]">{row.human}</td>
                   <td className="px-4 py-4 align-top text-[13px] font-medium leading-5 text-[#174ea6]">
                     {row.rule}
@@ -367,8 +381,8 @@ export default function Home() {
               The Skills Layer
             </p>
             <div className="mt-2 grid gap-3 lg:grid-cols-[minmax(0,1fr)_360px] lg:items-end">
-              <h2 className="max-w-4xl text-2xl font-semibold tracking-[-0.035em] text-[#202124] sm:text-3xl">
-                Perform specialized tasks consistently and efficiently. Model Agnostic</h2>
+          <h2 className="mt-1 text-xl font-semibold tracking-[-0.025em] text-[#202124] sm:text-2xl">
+                Perform specialized tasks consistently and efficiently. Model Agnostic ✨</h2>
               
                         
               
