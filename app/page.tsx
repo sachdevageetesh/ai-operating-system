@@ -182,7 +182,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#f8fafd]">
       <section className="mx-auto w-full max-w-6xl px-4 pb-4 pt-4 sm:px-5 lg:px-6 lg:pb-5 lg:pt-6">
         <div className="rounded-[28px] border border-[#dfe3eb] bg-white p-5 shadow-sm sm:p-6">
-          <div className="mb-5 flex flex-wrap items-center gap-2">
+          <div className="mb-5 flex flex-wrap items-start gap-2">
             <span className="rounded-full border border-[#d2e3fc] bg-[#e8f0fe] px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.16em] text-[#1a73e8]">
               Operating system
             </span>
@@ -192,6 +192,14 @@ export default function Home() {
               <span className="h-2 w-2 rounded-full bg-[#fbbc04]" />
               <span className="h-2 w-2 rounded-full bg-[#34a853]" />
             </span>
+            <div className="ml-auto rounded-xl border border-[#d2e3fc] bg-[#e8f0fe] px-3 py-2 text-right">
+              <p className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#1a73e8]">
+                Prepared for Rajesh Chandran @ PwC
+              </p>
+              <p className="mt-0.5 text-[10px] font-medium text-[#174ea6]">
+                Next.js · Claude Code · Vercel
+              </p>
+            </div>
           </div>
           <h1 className="max-w-3xl text-4xl font-semibold leading-[1.02] tracking-[-0.035em] text-[#202124] sm:text-5xl lg:text-[56px]">
             Geetesh&apos;s AI Operating System
