@@ -118,4 +118,3 @@ npm run build && npm run start
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-sachdevageetesh-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sachdevageetesh/)
 [![GitHub](https://img.shields.io/badge/GitHub-sachdevageetesh-181717?logo=github&logoColor=white)](https://github.com/sachdevageetesh)
-[![Email](https://img.shields.io/badge/Email-sachdevageetesh@gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:sachdevageetesh@gmail.com)
