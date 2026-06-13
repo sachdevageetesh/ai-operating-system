@@ -200,12 +200,13 @@ export default function Home() {
                 Next.js · Claude Code · GitHub · Vercel
               </p>
             </div>
+          
           </div>
           <h1 className="max-w-3xl text-4xl font-semibold leading-[1.02] tracking-[-0.035em] text-[#202124] sm:text-5xl lg:text-[56px]">
             Geetesh&apos;s AI Operating System
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-7 text-[#5f6368]">
-            A system for deciding, learning, building, and automating faster; with <b>human judgment</b> preserved where it matters.
+            A system for deciding, synthesizing, building, and automating faster; with <b>human judgment</b> preserved where it matters.
           </p>
 
           <div className="mt-6 border-t border-[#dfe3eb] pt-5">
