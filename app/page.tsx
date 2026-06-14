@@ -181,7 +181,7 @@ const instrumentLayer = {
   kicker: "The instrument layer",
   heading: "What the modes run on.",
   subheading:
-    "These aren't modes of work — they're what the modes run on. I keep them as a separate layer on purpose, ordered the way work actually moves: capture → create → build → connect, plus the frontier I watch.",
+    "These are the instruments I keep close: tools for capturing thought, creating fast, building real artifacts, extending workflows, and watching what is becoming useful next.",
   rows: [
     {
       cluster: "Capture",
@@ -214,9 +214,9 @@ const instrumentLayer = {
       status: "active" as const,
     },
     {
-      cluster: "Connect",
+      cluster: "Extend",
       instrument: "Apify",
-      role: "Wire tools and data together.",
+      role: "Extend workflows into external websites, data sources, and repeatable web tasks.",
       status: "active" as const,
     },
     {
